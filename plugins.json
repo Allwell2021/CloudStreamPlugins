@@ -1,0 +1,24 @@
+[
+    {
+        "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Kordiene_Logo.png",
+        "fileHash": "sha256-ab8bb74044011f379b563862957a06693003ad2bffd485d2e66fdd468517065c",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Allwell2021/CloudStreamPlugins",
+        "fileSize": 13075,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Allwell2021"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime"
+        ],
+        "version": 1,
+        "internalName": "ExampleProvider",
+        "description": "My custom multi-provider plugin for movies, TV series, and anime.",
+        "url": "https://raw.githubusercontent.com/Allwell2021/CloudStreamPlugins/builds/ExampleProvider.cs3",
+        "name": "ExampleProvider"
+    }
+]
