@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonProperty
 
 class ExampleProvider : MainAPI() {
     // The base URL for the movie API
-    override var mainUrl = "https://yts.mx"
+    override var mainUrl = "https:// yts.bz"
     
     // The name that will show up in CloudStream
     override var name = "My Movie Plugin"
