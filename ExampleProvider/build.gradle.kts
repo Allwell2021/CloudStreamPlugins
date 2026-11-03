@@ -7,10 +7,11 @@ dependencies {
 version = 1
 
 cloudstream {
-    // All of these properties are optional, you can safely remove any of them.
-
-    description = "Lorem ipsum"
-    authors = listOf("Cloudburst", "Luna712")
+    // A short description of what your plugin does
+    description = "My custom multi-provider plugin for movies, TV series, and anime."
+    
+    // Your name or GitHub username
+    authors = listOf("Allwell2021")
 
     /**
     * Status int as one of the following:
@@ -21,13 +22,15 @@ cloudstream {
     **/
     status = 1 // Will be 3 if unspecified
 
-    tvTypes = listOf("Movie")
+    // This tells CloudStream what kind of content to expect from this plugin
+    // We added TvSeries and Anime here for your future stages.
+    tvTypes = listOf("Movie", "TvSeries", "Anime")
 
     requiresResources = true
     language = "en"
 
-    // Random CC logo I found
-    iconUrl = "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png"
+    // You can leave this default icon for now, or change it later.
+    iconUrl = "https://upload.wikimedia.org/wikipedia/commons/2/21/Kordiene_Logo.png"
 }
 
 android {
